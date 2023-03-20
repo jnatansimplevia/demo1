@@ -21,7 +21,7 @@ export default {
   <MenuBar />
   <p class="text-navLightBlue font-bold">Enroll New Approproation</p>
   <p>Please fill out all the necessary field to enroll new appropriation </p>
-  <div class="container min-w-full items-center flex flex-col  bg-navGrey lg:grid lg:grid-cols-2 gap-y-11px gap-x-59px">
+  <div class="container min-w-full items-center flex flex-col   lg:grid lg:grid-cols-2 gap-y-11px gap-x-59px">
     
     <div class="container items-center md:justify-center  lg:justify-between md:flex">
       <p class="px-5">Budget Year</p>
@@ -30,38 +30,38 @@ export default {
       </div>
     </div>
 
-    <div class="container items-center md:flex">
-      Budget Year
-      <div class="justify-end md:flex flex-1">
-        <select class="bat-dropdown w-full h-7 md:w-360px sm:h-8 " ></select>
+    <div class="container items-center md:justify-center  lg:justify-between md:flex">
+      <p class="px-5">Budget Year</p>
+      <div class="">
+        <select class="bat-dropdown w-full h-7 md:w-360px sm:h-8 flex-initial" ></select>
       </div>
     </div>
 
-    <div class="container items-center md:flex">
-      Budget Year
-      <div class="md:justify-end md:flex md:flex-1">
-        <select class="bat-dropdown" ></select>
+    <div class="container items-center md:justify-center  lg:justify-between md:flex">
+      <p class="px-5">Budget Year</p>
+      <div class="">
+        <select class="bat-dropdown w-full h-7 md:w-360px sm:h-8 flex-initial" ></select>
       </div>
     </div>
 
-    <div class="container items-center md:flex">
-      Budget Year
-      <div class="md:justify-end md:flex md:flex-1">
-        <select class="bat-dropdown" ></select>
+    <div class="container items-center md:justify-center  lg:justify-between md:flex">
+      <p class="px-5">Budget Year</p>
+      <div class="">
+        <select class="bat-dropdown w-full h-7 md:w-360px sm:h-8 flex-initial" ></select>
       </div>
     </div>
 
-    <div class="container items-center md:flex">
-      Budget Year
-      <div class="md:justify-end md:flex md:flex-1">
-        <select class="bat-dropdown" ></select>
+    <div class="container items-center md:justify-center  lg:justify-between md:flex">
+      <p class="px-5">Budget Year</p>
+      <div class="">
+        <select class="bat-dropdown w-full h-7 md:w-360px sm:h-8 flex-initial" ></select>
       </div>
     </div>
 
-    <div class="container items-center md:flex">
-      Budget Year
-      <div class="md:justify-end md:flex md:flex-1">
-        <select class="bat-dropdown" ></select>
+    <div class="container items-center md:justify-center  lg:justify-between md:flex">
+      <p class="px-5">Budget Year</p>
+      <div class="">
+        <select class="bat-dropdown w-full h-7 md:w-360px sm:h-8 flex-initial" ></select>
       </div>
     </div>
   </div>

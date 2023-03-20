@@ -9,13 +9,13 @@
 <template>
     <header class=" top-0 ">
         <nav class=" flex flex-col sm:flex-row items-center  text-black  ">
-            <div class=" flex items-center py-4 px-4">
+            <div class=" flex items-center sm:py-4 sm:px-4">
                 <img src='../assets/Makati_City.png' class="makati-icon">
-                <p class="font-bold font-Inter px-5 text-base"  >Budgetary Account Transaction</p>                
+                <p class="font-bold font-Inter sm:px-5 text-base"  >Budgetary Account Transaction</p>                
             </div>
 
-            <div class="flex flex-1 justify-end px-9">
-                <img src="../assets/Notifbell.svg" class=" cursor-pointer px-3">
+            <div class="flex flex-1 sm:justify-end sm:px-9">
+                <img src="../assets/Notifbell.svg" class=" cursor-pointer sm:px-3">
                 
 
     <Menu as="div" class="relative inline-block text-left">
@@ -23,7 +23,7 @@
       <MenuButton class=" inline-flex flex-1 w-full items-center gap-x-1.5 rounded-md   py-2 text-sm font-semibold text-black">
         <img src="../assets/profile.svg" class=" cursor-pointer">
         Processor
-        <ChevronDownIcon class="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
+        
       </MenuButton>
     </div>
 
@@ -58,7 +58,7 @@
 
 <script>
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { ChevronDownIcon } from '@heroicons/vue/20/solid';
+
 
 export default {
     components:{
@@ -66,7 +66,7 @@ export default {
         MenuButton,
         MenuItems,
         MenuItem,
-        ChevronDownIcon,
+       
     },
 };
 </script>
